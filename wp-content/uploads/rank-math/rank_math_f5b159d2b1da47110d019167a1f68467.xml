@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//www.camtravel.xyz/main-sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>https://www.camtravel.xyz/post-sitemap.xml</loc>
+		<lastmod>2026-04-07T15:20:32+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.camtravel.xyz/page-sitemap.xml</loc>
+		<lastmod>2026-03-17T15:45:24+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://www.camtravel.xyz/category-sitemap.xml</loc>
+		<lastmod>2026-04-07T15:20:32+00:00</lastmod>
+	</sitemap>
+</sitemapindex>
