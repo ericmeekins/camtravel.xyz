@@ -1,7 +1,8 @@
 {
   "rewrites": [
     { "source": "/wp-content/:path*", "destination": "/wp-content/:path*" },
-    { "source": "/wp-includes/:path*", "destination": "/wp-includes/:path*" }
+    { "source": "/wp-includes/:path*", "destination": "/wp-includes/:path*" },
+    { "source": "/:file*", "destination": "/:file*" }
   ],
   "cleanUrls": true
 }
