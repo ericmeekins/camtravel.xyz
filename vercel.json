@@ -3,7 +3,6 @@
   "trailingSlash": false,
   "rewrites": [
     { "source": "/wp-content/:path*", "destination": "/wp-content/:path*" },
-    { "source": "/wp-includes/:path*", "destination": "/wp-includes/:path*" },
-    { "source": "/:slug", "destination": "/:slug.html" }
+    { "source": "/wp-includes/:path*", "destination": "/wp-includes/:path*" }
   ]
 }
