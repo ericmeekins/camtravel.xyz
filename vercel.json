@@ -1,8 +1,14 @@
 {
   "rewrites": [
     { "source": "/wp-content/:path*", "destination": "/wp-content/:path*" },
-    { "source": "/wp-includes/:path*", "destination": "/wp-includes/:path*" },
-    { "source": "/:file*", "destination": "/:file*" }
+    { "source": "/wp-includes/:path*", "destination": "/wp-includes/:path*" }
   ],
-  "cleanUrls": true
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    }
+  ]
 }
