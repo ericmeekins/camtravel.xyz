@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//www.camtravel.xyz/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://www.camtravel.xyz/category/digital-nomad-life/</loc>
+		<loc>/category/digital-nomad-life/</loc>
 		<lastmod>2026-04-07T14:30:19+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.camtravel.xyz/category/tech-gear/</loc>
+		<loc>/category/tech-gear/</loc>
 		<lastmod>2026-03-30T16:12:21+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.camtravel.xyz/category/cambodia-guides/</loc>
+		<loc>/category/cambodia-guides/</loc>
 		<lastmod>2026-04-06T23:14:35+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://www.camtravel.xyz/category/tropical-gardening/</loc>
+		<loc>/category/tropical-gardening/</loc>
 		<lastmod>2026-03-28T05:36:08+00:00</lastmod>
 	</url>
 </urlset>

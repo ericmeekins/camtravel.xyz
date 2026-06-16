@@ -23,9 +23,9 @@ header('Retry-After: 600');
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="icon" href="https://www.camtravel.xyz/wp-content/uploads/2025/10/图片12-150x150.png">
-    <link rel="stylesheet" href="https://www.camtravel.xyz/wp-content/maintenance/assets/styles.css">
-    <script src="https://www.camtravel.xyz/wp-content/maintenance/assets/timer.js"></script>
+    <link rel="icon" href="/wp-content/uploads/2025/10/图片12-150x150.png">
+    <link rel="stylesheet" href="/wp-content/maintenance/assets/styles.css">
+    <script src="/wp-content/maintenance/assets/timer.js"></script>
     <title>Scheduled Maintenance</title>
 </head>
 
@@ -44,13 +44,13 @@ header('Retry-After: 600');
     <!--START_SOCIAL_LINKS_BLOCK-->
     <section class="social-links">
                     <a class="social-links__link" href="https://www.facebook.com/cPanel" target="_blank" title="Facebook">
-                <span class="icon"><img src="https://www.camtravel.xyz/wp-content/maintenance/assets/images/facebook.svg" alt="Facebook"></span>
+                <span class="icon"><img src="/wp-content/maintenance/assets/images/facebook.svg" alt="Facebook"></span>
             </a>
                     <a class="social-links__link" href="https://twitter.com/cPanel" target="_blank" title="Twitter">
-                <span class="icon"><img src="https://www.camtravel.xyz/wp-content/maintenance/assets/images/twitter.svg" alt="Twitter"></span>
+                <span class="icon"><img src="/wp-content/maintenance/assets/images/twitter.svg" alt="Twitter"></span>
             </a>
                     <a class="social-links__link" href="https://instagram.com/cPanel" target="_blank" title="Instagram">
-                <span class="icon"><img src="https://www.camtravel.xyz/wp-content/maintenance/assets/images/instagram.svg" alt="Instagram"></span>
+                <span class="icon"><img src="/wp-content/maintenance/assets/images/instagram.svg" alt="Instagram"></span>
             </a>
             </section>
     <!--END_SOCIAL_LINKS_BLOCK-->
