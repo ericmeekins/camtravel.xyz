@@ -1,8 +1,0 @@
-{
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "rewrites": [
-    { "source": "/wp-content/:path*", "destination": "/wp-content/:path*" },
-    { "source": "/wp-includes/:path*", "destination": "/wp-includes/:path*" }
-  ]
-}
