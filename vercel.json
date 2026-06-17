@@ -1,6 +1,6 @@
-
 {
+  "cleanUrls": true,
   "rewrites": [
-    { "source": "/about-us", "destination": "/about-us.html" }
+    { "source": "/about-us", "destination": "/about me - Cambodia Through My Eyes.html" }
   ]
 }
