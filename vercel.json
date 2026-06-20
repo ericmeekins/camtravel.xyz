@@ -22,6 +22,6 @@
     { "source": "/privacy-policy/:path*", "destination": "/privacy-policy.html" },
     { "source": "/terms-of-service/:path*", "destination": "/terms-of-service.html" },
     { "source": "/archive/:path*", "destination": "/cambodia-travel-directory.html" },
-    { "source": "/:post/:path*", "destination": "/blog/:post.html" }
+    { "source": "/:post/", "destination": "/blog/:post.html" }
   ]
 }
