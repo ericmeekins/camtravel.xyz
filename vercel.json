@@ -8,6 +8,6 @@
     { "source": "/terms-of-service", "destination": "/terms-of-service.html" },
     { "source": "/archive", "destination": "/cambodia-travel-directory.html" },
     { "source": "/cambodia-travel-directory", "destination": "/cambodia-travel-directory.html" },
-    { "source": "/:post", "destination": "/blog/:post.html" }
+    { "source": "/:post.html", "destination": "/blog/:post.html" }
   ]
 }
