@@ -1,27 +1,8 @@
-{
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "redirects": [
-    { "source": "/go/booking", "destination": "https://booking.tpo.lu/Hc9bPmrw", "permanent": true },
-    { "source": "/go/EKTA", "destination": "https://ektatraveling.tpo.lu/j0OxunvU", "permanent": true },
-    { "source": "/go/VisitorsCoverage", "destination": "https://visitorscoverage.tpo.lu/7PmyJpHu", "permanent": true },
-    { "source": "/go-12go", "destination": "https://12go.tpo.lu/6QN2feAN", "permanent": true },
-    { "source": "/go-klook", "destination": "https://klook.tpo.lu/ivZj88KL", "permanent": true },
-    { "source": "/go-trip", "destination": "https://trip.tpo.lu/VR4vigYl", "permanent": true },
-    { "source": "/go-airalo", "destination": "https://airalo.tpo.lu/yuwfUmq0", "permanent": true },
-    { "source": "/go-wise", "destination": "http://wise.com/invite/dic/tuguiqint", "permanent": true },
-    { "source": "/GetYourGuide", "destination": "https://getyourguide.tpo.lu/egG98mXA", "permanent": true },
-    { "source": "/go-viator", "destination": "https://viator.tpo.lu/cz2lCk3R", "permanent": true },
-    { "source": "/go-expedia", "destination": "https://expedia.tpo.lu/8NFHGPy6", "permanent": true },
-    { "source": "/go/Agoda", "destination": "https://agoda.tpo.lu/GBWrBnra", "permanent": true },
-    { "source": "/go/siem-reap-cooking-class", "destination": "https://klook.tpo.lu/eOKBmX2O", "permanent": true }
-  ],
-  "rewrites": [
-    { "source": "/about-us/:path*", "destination": "/about-us.html" },
-    { "source": "/contact-us/:path*", "destination": "/contact-us.html" },
-    { "source": "/privacy-policy/:path*", "destination": "/privacy-policy.html" },
-    { "source": "/terms-of-service/:path*", "destination": "/terms-of-service.html" },
-    { "source": "/archive/:path*", "destination": "/cambodia-travel-directory.html" },
-    { "source": "/:post/", "destination": "/blog/:post.html" }
+"rewrites": [
+    { "source": "/about-us", "destination": "/about-us.html" },
+    { "source": "/contact-us", "destination": "/contact-us.html" },
+    { "source": "/privacy-policy", "destination": "/privacy-policy.html" },
+    { "source": "/terms-of-service", "destination": "/terms-of-service.html" },
+    { "source": "/archive", "destination": "/cambodia-travel-directory.html" },
+    { "source": "/:post", "destination": "/blog/:post.html" }
   ]
-}
