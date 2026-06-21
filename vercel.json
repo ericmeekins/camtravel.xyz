@@ -14,7 +14,7 @@
     { "source": "/go-viator", "destination": "https://viator.tpo.lu/cz2lCk3R", "permanent": true },
     { "source": "/go-expedia", "destination": "https://expedia.tpo.lu/8NFHGPy6", "permanent": true },
     { "source": "/go/Agoda", "destination": "https://agoda.tpo.lu/GBWrBnra", "permanent": true },
-    { "source": "/go/siem-reap-cooking-class", "destination": "https://klook.tpo.lu/eOKBmX2O", 
+    { "source": "/go/siem-reap-cooking-class", "destination": "https://klook.tpo.lu/eOKBmX2O", "permanent": true }
   ],
   "rewrites": [
     { "source": "/about-us", "destination": "/about-us.html" },
@@ -23,6 +23,6 @@
     { "source": "/terms-of-service", "destination": "/terms-of-service.html" },
     { "source": "/archive", "destination": "/cambodia-travel-directory.html" },
     { "source": "/cambodia-travel-directory", "destination": "/cambodia-travel-directory.html" },
-    { "source": "/:post", "destination": "/blog/:post" }
+    { "source": "/:post", "destination": "/blog/:post.html" }
   ]
 }
