@@ -1,32 +1,7 @@
-Sitemap: https://www.camtravel.xyz/sitemap_index.xml
+Sitemap: https://www.camtravel.xyz/sitemap.xml
 
 User-agent: *
 Allow: /
-Disallow: /wp-admin/
-Allow: /wp-admin/admin-ajax.php
-Disallow: /wp-json/
 Disallow: /cgi-bin/
-Disallow: /?s=
-Disallow: /search/
-Disallow: /trackback/
-Disallow: /feed/
-Disallow: /comments/
-
-User-agent: Googlebot-Image
-Allow: /
-
-User-agent: Mediapartners-Google
-Disallow:
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Yandex
-Allow: /
-
-# Security
-Disallow: /wp-content/plugins/
-Disallow: /wp-content/cache/
-Disallow: /wp-content/themes/
 Disallow: /private/
 Disallow: /tmp/
