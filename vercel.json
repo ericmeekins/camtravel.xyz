@@ -14,7 +14,11 @@
     { "source": "/go-viator", "destination": "https://viator.tpo.lu/cz2lCk3R", "permanent": true },
     { "source": "/go-expedia", "destination": "https://expedia.tpo.lu/8NFHGPy6", "permanent": true },
     { "source": "/go/Agoda", "destination": "https://agoda.tpo.lu/GBWrBnra", "permanent": true },
-    { "source": "/go/siem-reap-cooking-class", "destination": "https://klook.tpo.lu/eOKBmX2O", "permanent": true }
+    { "source": "/go/siem-reap-cooking-class", "destination": "https://klook.tpo.lu/eOKBmX2O", "permanent": true },
+    { "source": "/cambodian-pchum-ben-day", "destination": "/blog/cambodian-pchum-ben-day.html", "permanent": true },
+    { "source": "/tonle-sap-lake-rural-life-cambodia", "destination": "/blog/ttonle-sap-lake-rural-life-cambodia.html", "permanent": true },
+    { "source": "/wild-fish-fishing", "destination": "/blog/wild-fish-fishing.html", "permanent": true },
+    { "source": "/the-three-major-telecommunications-operators", "destination": "/blog/the-three-major-telecommunications-operators.html", "permanent": true }
   ],
   "rewrites": [
     { "source": "/about-us", "destination": "/about-us.html" },
@@ -22,6 +26,7 @@
     { "source": "/privacy-policy", "destination": "/privacy-policy.html" },
     { "source": "/terms-of-service", "destination": "/terms-of-service.html" },
     { "source": "/archive", "destination": "/cambodia-travel-directory.html" },
-    { "source": "/cambodia-travel-directory", "destination": "/cambodia-travel-directory.html" }
+    { "source": "/cambodia-travel-directory", "destination": "/cambodia-travel-directory.html" },
+    { "source": "/:post", "destination": "/blog/:post" }
   ]
 }
