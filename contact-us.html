@@ -73,6 +73,39 @@
         display: none !important; /* 隐藏没用的折叠图标 */
     }
 }
+/* 强制给容器高度，否则在静态页面中它是 0px */
+.wp-block-cover {
+    min-height: 430px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* 强制让背景图片显示并填满容器 */
+.wp-block-cover__image-background {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: 0;
+}
+
+/* 确保遮罩层覆盖在图片上 */
+.wp-block-cover__background {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    z-index: 1;
+}
+
+/* 确保文字在最上方 */
+.wp-block-cover__inner-container {
+    position: relative;
+    z-index: 2;
+}
+
+
 </style>
 </head>
 <body class="site-container">
